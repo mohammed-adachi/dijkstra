@@ -7,7 +7,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY gunicorn.py .
-COPY source /source
+COPY source
 
 EXPOSE 5000
 
